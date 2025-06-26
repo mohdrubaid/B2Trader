@@ -1,0 +1,16 @@
+/* optional Container STYLES */
+.chart { height: auto; margin: 5px; width: auto; }
+.Treant > .node {
+    padding: 3px;
+    border: 1px solid #484848;
+    border-radius: 3px;
+    width: 80px !important;
+}
+.Treant > .node img { width: 60px; margin: 5px auto;}
+.Treant > .node p { margin: 1px; font-weight:bold; }
+.Treant > .node .node-name { text-align: center; }
+.Treant > .node .node-id { text-align: center; }
+.Treant > .node .node-level { text-align: center; }
+.Treant .collapse-switch { width: 100%; height: 100%; border: none; }
+.Treant .node.collapsed .collapse-switch { background: none; }
+.Treant .collapsed .collapse-switch { border: 2px solid #484848; }
