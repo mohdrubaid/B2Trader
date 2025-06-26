@@ -67,7 +67,7 @@ public partial class Login : System.Web.UI.Page
         catch (Exception ex)
         {
             lbmsg.Visible = true;
-            lbmsg.Text = "Invalid Username or Password";
+            lbmsg.Text = "Invalid Username or Password Please Check";
             txtPassword.Text = "";
             txtUserName.Text = "";
         }
