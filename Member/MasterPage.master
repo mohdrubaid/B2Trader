@@ -108,7 +108,7 @@
     <form id="form1" runat="server">
         <div>
             <div class="preloader">
-                <img src="../Dash/images/logo.png" style="width:300px" alt="loader" class="lds-ripple img-fluid" />
+                <img src="../Dash/images/logo.png" style="width:150px" alt="loader" class="lds-ripple img-fluid" />
             </div>
             <!-- Overlay and Popup HTML -->
 <%--<div class="overlay" id="overlay">
@@ -448,22 +448,7 @@
                                                 <span class="hide-menu">Support List </span>
                                             </a>
                                         </li>   
-                                        <li class="sidebar-item">
-                                            <a href="ApiSupportRequest.aspx" class="sidebar-link">
-                                                <div class="round-16 d-flex align-items-center justify-content-center">
-                                                    <i class="ti ti-circle"></i>
-                                                </div>
-                                                <span class="hide-menu">Trading API Key Request  </span>
-                                            </a>
-                                        </li>   
-                                        <li class="sidebar-item">
-                                            <a href="ApiSupportRequestList.aspx" class="sidebar-link">
-                                                <div class="round-16 d-flex align-items-center justify-content-center">
-                                                    <i class="ti ti-circle"></i>
-                                                </div>
-                                                <span class="hide-menu">Trading API Support List </span>
-                                            </a>
-                                        </li>   
+                                     
                        
                                        
                                       
