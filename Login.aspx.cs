@@ -57,7 +57,7 @@ public partial class Login : System.Web.UI.Page
             else
             {
                 lbmsg.Visible = true;
-                lbmsg.Text = "Invalid Username or Password";
+                lbmsg.Text = "Invalid Username or Password, Please Check And Try Again";
                 txtPassword.Text = "";
                 txtUserName.Text = "";
                 //Response.Write("<script>alert('Invalid Username or Password')</script>");
